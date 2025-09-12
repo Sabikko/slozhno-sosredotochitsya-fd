@@ -44,8 +44,8 @@
 }
 
 .header__decorated-inscription {
-  display: var(--display-element);
   position: absolute;
+  display: var(--display-element);
   justify-self: end;
   inset-block-start: 10px;
   inset-inline-end: 38px;
@@ -98,8 +98,8 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: none;
   border-bottom: 1px solid currentColor;
+  outline: none;
 }
 
 .header__title {
