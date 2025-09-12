@@ -52,6 +52,10 @@ a {
   border-bottom: 1px solid currentColor;
 }
 
+.link-decorated:focus {
+  outline: none;
+}
+
 .link-decorated:focus-visible {
   outline: 1px solid currentColor;
   outline-offset: 2px;
