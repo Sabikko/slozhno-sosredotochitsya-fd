@@ -45,13 +45,14 @@ a {
 }
 
 a {
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 1.5px 1.5px 0 var(--accent-color);
 }
 
-a:hover {
-  text-decoration: underline;
+.link-decorated:hover {
+  border-bottom: 1px solid currentColor;
 }
 
-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
+.link-decorated:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 2px;
 }

@@ -44,6 +44,7 @@
 }
 
 .header__decorated-inscription {
+  display: var(--display-element);
   position: absolute;
   justify-self: end;
   inset-block-start: 10px;
@@ -80,7 +81,7 @@
 }
 
 .header__theme-menu-button {
-  border: none;
+  border: 1px solid transparent;
   padding: 1.5px 13px;
   color: inherit;
   text-transform: lowercase;
@@ -89,6 +90,16 @@
 
 .header__theme-menu-button_active {
   border: 1px solid currentColor;
+  pointer-events: none;
+}
+
+.header__theme-menu-button:hover {
+  border-color: var(--color-hover-button);
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-bottom: 1px solid currentColor;
 }
 
 .header__title {
