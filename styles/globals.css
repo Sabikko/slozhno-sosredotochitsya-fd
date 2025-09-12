@@ -43,3 +43,15 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+a {
+  text-shadow: 2px 1px 0 var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  border: 1px solid rgba(255, 0, 112, 0.4);
+}
