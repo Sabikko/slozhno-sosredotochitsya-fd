@@ -44,7 +44,8 @@ a {
   line-height: inherit;
 }
 
-a {
+.link-decorated {
+  text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
